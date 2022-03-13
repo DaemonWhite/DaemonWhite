@@ -26,6 +26,7 @@ Here are some ideas to get you started:
         - Bash Shell
     -  Database:
         - MariaDB
-![Github stats](https://github-readme-stats.vercel.app/api?username=daemonwhite&count_private=true&show_icons=true&&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+      
+![Github stats](https://github-readme-stats.vercel.app/api?username=daemonwhite&count_private=true&show_icons=false&&bg_color=30,0971be,811198&title_color=fff&text_color=fff)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daemonwhite&langs_count=10&hide=javascript,html,css&&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&layout=compact&card_width=445)](https://github.com/dirname/dirname)
