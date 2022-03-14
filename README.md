@@ -11,10 +11,10 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+-->�
 
 ### Hi there, I'm [DaemonWhite!](https://github.com/daemonwhite) :wave:
-- :girl: I'm a non-major programming learner, and I'm learning and consolidating the foundation of programming.
+- 👩🏻 I'm a non-major programming learner, and I'm learning and consolidating the foundation of programming.
 - :blue_book: Skills currently being learned:
     - Programming language:
         - Rust
