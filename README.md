@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 ### Hi there, I'm [DaemonWhite!](https://github.com/daemonwhite) :wave:
-- 👩🏻 I'm a non-major programming learner, and I'm learning and consolidating the foundation of programming.
+- 👩🏻  I am a programming learner. I am studying at BTS level in France, and I am learning and consolidating the basics of programming and networking.
 - :blue_book: Skills currently being learned:
     - Programming language:
         - Rust
