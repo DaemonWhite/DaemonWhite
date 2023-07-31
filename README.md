@@ -26,7 +26,7 @@ Here are some ideas to get you started:
     -  Database:
         - MariaDB
       
-[![Github stats](https://github-readme-stats.vercel.app/api?username=daemonwhite&count_private=true&show_icons=true&&icon_color=00ff84&&bg_color=20,0971be,811198&title_color=fff&text_color=fff)](https://github.com/daemonwhite/)
+[![Github stats](https://github-readme-stats.vercel.app/api?username=daemonwhite&count_private=true&show_icons=true&&icon_color=00ff84&&bg_color=20,0971be&include_all_commits=true,811198&title_color=fff&text_color=fff)](https://github.com/daemonwhite/)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daemonwhite&langs_count=10&bg_color=20,0971be,811198&title_color=fff&text_color=fff&hide=qmake,meson&layout=compact&card_width=445)](https://github.com/daemonwhite/)
 
