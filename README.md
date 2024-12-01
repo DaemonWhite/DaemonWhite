@@ -29,4 +29,4 @@ Here are some ideas to get you started:
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daemonwhite&layout=donut&langs_count=10&bg_color=20,0971be,811198&title_color=fff&text_color=fff&hide=qmake,meson,hack)](https://github.com/daemonwhite/)
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DaemonWhite&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D&fire=D71EFF&ring=811299&background=DD272700)](https://github.com/daemonwhite/)
+[![GitHub Streak](https://streak-stats.demolab.com?user=DaemonWhite&theme=tokyonight&locale=fr&date_format=j%20M%5B%20Y%5D&background=45%2C0971BE%2C811198)](https://github.com/daemonwhite/)
