@@ -1,0 +1,18 @@
+[0x28bd:0x290c]
+Name=UGTABLET UE16
+Buttons=3
+Axes=Pressure;Tilt;
+Type=Mobile
+PairedStylusIds=0x0:0xfffff;
+EraserType=Button
+AliasOf=0x1
+
+[0x28bd:0x3]
+Name=UGTABLET UE16
+Buttons=3
+Axes=Pressure;Tilt;
+Type=Mobile
+EraserType=Button
+PairedStylusIds=0x0:0xfffff;
+PairedStylusIds=0x28bd:0x3;
+AliasOf=0x1

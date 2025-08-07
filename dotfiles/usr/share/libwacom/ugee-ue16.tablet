@@ -1,0 +1,51 @@
+# Wacom
+# Intuos4 Large
+# PTK-840
+#
+# Button Map:
+# (A=1, B=2, C=3, ...)
+#
+#    *-----------------------*
+#    |                       |
+#  B |                       |
+#  C |                       |
+#  D |                       |
+#  E |                       |
+#  A |        TABLET         |
+#  F |                       |
+#  G |                       |
+#  H |                       |
+#   |                       |
+#    |                       |
+#    *-----------------------*
+#
+# LED Map:
+# (XY=Bank X, LED Y)
+#
+#     *-----------------------*
+#     |                       |
+#  00 |                       |
+#  01 |                       |
+#  02 |        TABLET         |<F3><F3><F3>
+#  03 |                       |abe
+#     |                       |
+#     *-----------------------*
+#
+
+[Device]
+Name=UGTABLET UE16
+ModelName=UGTABLET UE16
+DeviceMatch=usb|28bd|290c
+Width=13
+Height=8
+IntegratedIn=
+Styli=0x28bd:0x290c;0x28bd:0x03;
+
+[Features]
+Reversible=true
+Stylus=true
+NumRings=1
+
+[Buttons]
+Left=A;B;C;D;E;F;G;H
+
