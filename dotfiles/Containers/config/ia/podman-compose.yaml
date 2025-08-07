@@ -1,0 +1,67 @@
+version: '3'
+services:
+  comfyui:
+    image: yanwk/comfyui-boot:cu124-megapak
+    container_name: comfyui
+    ports:
+      - "2001:8188"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all 
+    networks:
+      - ia
+    devices:
+      - nvidia.com/gpu=all
+    volumes:
+      comfyui_storage:/root 
+ 
+  ollama_rocm:
+    image: ollama/ollama:rocm 
+    container_name: ollama_rocm
+    privileged: true
+    ports:
+      - "11434:11434"
+    environment:
+      - HSA_OVERRIDE_GFX_VERSION=11.0.2
+      - ROCM_VISIBLE_DEVICES=0
+    devices:
+      - /dev/kfd
+      - /dev/dri/
+    group_add:
+      - video
+    security_opt:
+      - seccomp:unconfined
+    networks:
+      - ia
+    volumes:
+      - ollama:/root/.ollama
+
+  ollama_cuda:
+    image: ollama/ollama
+    container_name: ollama_cuda
+    ports:
+      - "11435:11434"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all 
+    networks:
+      - ia
+    devices:
+      - nvidia.com/gpu=all 
+    volumes:
+      - ollama:/root/.ollama
+
+  web:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open_webui
+    ports:
+      - "2000:8080"
+    networks:
+      - ia
+    volumes:
+      - webui:/app/backend/data
+networks:
+  ia:
+
+volumes:
+  ollama:
+  webui:
+  comfyui_storage:

@@ -1,0 +1,24 @@
+services:
+  ollama_rocm:
+    image: ollama/ollama:rocm
+    container_name: ollama_rocm
+    environment:
+      HSA_OVERRIDE_GFX_VERSION: "11.0.0"
+      HIP_VISIBLE_DEVICES: "0"
+    devices:
+      - "/dev/kfd"
+      - "/dev/dri"
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
+    ipc: host
+    group_add:
+      - video
+    ports:
+      - "11434:11434"
+    volumes:
+      - /home/matheo/.ollama/:/root/.ollama
+      
+volumes:
+  ollama:

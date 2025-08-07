@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ollama_cuda:
+    image: ollama/ollama
+    container_name: ollama_cuda
+    ports:
+      - "11434:11434"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all
+    devices:
+      - nvidia.com/gpu=all 
+    volumes:
+      - /home/matheo/.ollama/:/root/.ollama
