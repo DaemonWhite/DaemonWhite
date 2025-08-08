@@ -1,6 +1,11 @@
 # Dotfile Base ARCH
 
 ## Config
+### Systemd
+Automatically launches the Ollama containers according to the Laptop GPU mode (AMD/NVIDIA) launches Ollama on AMD if Nvidia deactivated
+
+This launches automatically at the launch of the session
+
 ### XDG Portal
 Force portal to Gnome for FileChoose (I Hate Dolphin & kde selector file)
 
@@ -27,3 +32,7 @@ Kernel use cachyos repo delete cachyos rules is not present (in rules.d)
 ### Environement
 Rules for force IGPU Rendre (Gnome(48) & KDE(Plasma 6.4) create by default instance to Nvidia)
 
+## Local
+
+### bin
+- *-OLLAMA.sh **-->** Lance or stop the Ollama container as a function of the GPU mode of the OdInautor (AMD-> ROCM) (AMD/NVIDIA-> CUDA)
