@@ -1,0 +1,3 @@
+[submodule "dotfiles/Containers/config/languagetool"]
+	path = dotfiles/Containers/config/languagetool
+	url = https://github.com/languagetool-org/languagetool
