@@ -1,0 +1,11 @@
+[Unit]
+Description=Arrêt du pod Ollama à la fermeture de session
+PartOf=graphical-session.target
+Before=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/share/bin/ollama_stop.sh
+
+[Install]
+WantedBy=graphical-session.target
