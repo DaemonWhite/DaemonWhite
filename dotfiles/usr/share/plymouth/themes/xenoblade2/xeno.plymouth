@@ -1,13 +1,13 @@
 [Plymouth Theme]
-Name[fr]=Xenoblade 2
-Name=Xenoblade 2
+Name[fr]=xeno
+Name=xeno
 Description=My Xenoblade plymouth theme
 ModuleName=two-step
 
 [two-step]
 Font=Cantarell 12
 TitleFont=Cantarell Light 30
-ImageDir=/usr/share/plymouth/themes/Xenoblade2
+ImageDir=/usr/share/plymouth/themes/xeno
 DialogHorizontalAlignment=.5
 DialogVerticalAlignment=.382
 TitleHorizontalAlignment=.5
